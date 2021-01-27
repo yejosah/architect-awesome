@@ -1,6 +1,9 @@
 
 <h1>《后端架构师技术图谱》</h1>
 
+:thumbsup: :thumbsup: :thumbsup:  推荐一个在线搜课程的神器，“[课程搜](https://www.kcsou.com)”：[https://www.kcsou.com/s_架构师/](https://www.kcsou.com/s_%E6%9E%B6%E6%9E%84%E5%B8%88/)
+
+-----------
 
 
 <b style="color:red">推荐:</b> [《Java技术书籍大全》 - awesome-java-books](https://github.com/sorenduan/awesome-java-books)
@@ -243,6 +246,8 @@
 	* [授权、认证](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#授权认证)
 		* [RBAC](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#rbac)
 		* [OAuth2.0](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#oauth20)
+		* [OIDC](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#oidc)
+		* [SAML](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#saml)
 		* [双因素认证（2FA）](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#双因素认证2fa)
 		* [单点登录(SSO)](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#单点登录sso)
 * [常用开源框架](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#常用开源框架)
@@ -751,7 +756,7 @@ TODO
 * [《设计模式类图与示例》](https://github.com/ToryZhou/design-pattern)
 
 ## 应用场景
-* [《细数JDK里的设计模式》](http://blog.jobbole.com/62314/)
+* [《细数JDK里的设计模式》](https://www.cnblogs.com/winkey4986/p/5148953.html)
 	* 结构型模式：
 		* 适配器：用来把一个接口转化成另一个接口，如 java.util.Arrays#asList()。
 		* 桥接模式：这个模式将抽象和抽象操作的实现进行了解耦，这样使得抽象和实现可以独立地变化，如JDBC；
@@ -763,7 +768,7 @@ TODO
 	* 创建模式:
 		* 抽象工厂模式：抽象工厂模式提供了一个协议来生成一系列的相关或者独立的对象，而不用指定具体对象的类型，如 java.util.Calendar#getInstance()。
 		* 建造模式(Builder)：定义了一个新的类来构建另一个类的实例，以简化复杂对象的创建，如：java.lang.StringBuilder#append()。
-		* 工厂方法：就是 **一个返*** 回具体对象的方法，而不是多个，如 java.lang.Object#toString()、java.lang.Class#newInstance()。
+		* 工厂方法：就是 **一个返回**具体对象的方法，而不是多个，如 java.lang.Object#toString()、java.lang.Class#newInstance()。
 		* 原型模式：使得类的实例能够生成自身的拷贝、如：java.lang.Object#clone()。
 		* 单例模式：全局只有一个实例，如 java.lang.Runtime#getRuntime()。
 	* 行为模式：
@@ -885,7 +890,7 @@ APM —  Application Performance Management
 ## 持续集成(CI/CD)
 
 * [《持续集成是什么？》](http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)
-* [《8个流行的持续集成工具》](https://www.testwo.com/article/1170)
+* [《8个流行的持续集成工具》](http://www.51testing.com/html/74/n-3723774.html)
 
 ### Jenkins
 
@@ -1372,7 +1377,7 @@ Goolge出品、占用空间和效率完胜其他序列化类库，如Hessian；�
 ## MySQL
 
 ### 原理
-* [《MySQL的InnoDB索引原理详解》](http://www.admin10000.com/document/5372.html)
+* [《MySQL的InnoDB索引原理详解》](https://blog.csdn.net/voidccc/article/details/40077329)
 
 * [《MySQL存储引擎－－MyISAM与InnoDB区别》](https://blog.csdn.net/xifeijian/article/details/20316775)
 	* 两种类型最主要的差别就是Innodb 支持事务处理与外键和行级锁
@@ -1640,6 +1645,9 @@ TODO
 * [《搭建简易堡垒机》](http://blog.51cto.com/zero01/2062618)
 
 ## 授权、认证
+
+* [授权认证知识库](https://docs.authing.cn/authing/)
+
 ### RBAC 
 * [《基于组织角色的权限设计》](https://www.cnblogs.com/zq8024/p/5003050.html)
 * [《权限系统与RBAC模型概述》](https://www.cnblogs.com/shijiaqi1066/p/3793894.html)
@@ -1648,6 +1656,12 @@ TODO
 ### OAuth2.0
 * [《理解OAuth 2.0》](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 * [《一张图搞定OAuth2.0》](https://www.cnblogs.com/flashsun/p/7424071.html)
+
+### OIDC
+* [理解 OIDC](https://docs.authing.cn/authing/advanced/oidc/li-jie-oidc-liu-cheng)
+
+### SAML
+* [理解 SAML](https://docs.authing.cn/authing/advanced/use-saml/li-jie-saml-liu-cheng)
 
 ### 双因素认证（2FA）
 
@@ -1660,8 +1674,8 @@ TODO
 ### 单点登录(SSO)
 
 * [《单点登录原理与简单实现》](https://www.cnblogs.com/ywlaker/p/6113927.html)
-
 * [CAS单点登录框架](https://github.com/apereo/cas)
+* [使用 Authing 实现单点登录](https://docs.authing.cn/authing/quickstart/implement-sso-with-authing)
 
 # 常用开源框架
 
@@ -1986,12 +2000,12 @@ Java、Spring、Dubbo 优雅关闭方式。
   * 领域（Doamin）本质上就是问题域，比如一个电商系统，一个论坛系统等。
   * 界限上下文（Bounded Context）：阐述子域之间的关系，可以简单理解成一个子系统或组件模块。
   * 领域模型（Domain Model）：DDD的核心是建立（用通用描述语言、工具—领域通用语言）正确的领域模型；反应业务需求的本质，包括实体和过程；其贯穿软件分析、设计、开发 的整个过程；常用表达领域模型的方式：图、代码或文字；
-  * 领域通用语言：领域专家、开发设计人员都能立即的语言或工具。
+  * 领域通用语言：领域专家、开发设计人员都能理解的语言或工具。
   * 经典分层架构：用户界面/展示层、应用层、领域层、基础设施层，是四层架构模式。
   * 使用的模式：
     * 关联尽量少，尽量单项，尽量降低整体复杂度。
     * 实体（Entity）：领域中的唯一标示，一个实体的属性尽量少，少则清晰。
-    * 值对象（Value Object）：没有唯一标识，且属性值不可变，小二简单的对象，比如Date。
+    * 值对象（Value Object）：没有唯一标识，且属性值不可变，小而简单的对象，比如Date。
     * 领域服务（Domain Service）： 协调多个领域对象，只有方法没有状态(不存数据)；可以分为应用层服务，领域层服务、基础层服务。
     * 聚合及聚合根（Aggregate，Aggregate Root）：聚合定义了一组具有内聚关系的相关对象的集合；聚合根是对聚合引用的唯一元素；当修改一个聚合时，必须在事务级别；大部分领域模型中，有70%的聚合通常只有一个实体，30%只有2~3个实体；如果一个聚合只有一个实体，那么这个实体就是聚合根；如果有多个实体，那么我们可以思考聚合内哪个对象有独立存在的意义并且可以和外部直接进行交互；
     * 工厂（Factory）：类似于设计模式中的工厂模式。
@@ -2422,7 +2436,8 @@ TODO
 	* Cheat Sheets 大全，单页文档网站。
 * [Tutorialspoint](https://www.tutorialspoint.com/index.htm)
 	* 知名教程网站，提供Java、Python、JS、SQL、大数据等高质量入门教程。
-
+* [LeetCode](https://leetcode.com/problemset/all/)
+	* 知名题库网站，提供Java、Python、C#、C++、算法、SQL、等高质量各程度题库和解决办法。
 
 ## 在线课堂
 
